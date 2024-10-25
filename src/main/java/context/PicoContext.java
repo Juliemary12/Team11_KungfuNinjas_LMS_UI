@@ -12,6 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import lms_PageObject.BatchPage;
 import lms_PageObject.Dashboard;
 import lms_PageObject.LoginPage;
 import lms_Utils.PropertiesFile;
@@ -23,6 +24,7 @@ public class PicoContext {
 	
 	LoginPage lo;
 	Dashboard db;
+	BatchPage batch;
 	
 	
 	public void setDriver(WebDriver driver) throws Throwable {
@@ -80,12 +82,16 @@ public class PicoContext {
 		return db;
 	}	
 	
+	public BatchPage getBatch() {
+		return batch;
+	}
 		
 	
 	public void initializePageObjects(WebDriver driver) {
 
-		//this.lo = new LoginPage(driver);
+		this.lo = new LoginPage(driver);
 		//this.db = new Dashboard(driver);
+		this.batch = new BatchPage(driver);
 		
 		
 

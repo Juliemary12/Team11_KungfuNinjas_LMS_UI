@@ -8,7 +8,7 @@ import org.testng.annotations.Parameters;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
-@CucumberOptions(features = "src/test/resources/features", 
+@CucumberOptions(features = "src/test/resources/features/LoginPage.feature", 
 glue = { "lms_Hooks","lms_StepDefinition"},
 
 //tags = "@all",
@@ -20,7 +20,7 @@ plugin={"pretty",
         		"html:target/MyReports/report2.json",
         		"timeline:test-output-thread/"},
 		
-dryRun = false, monochrome = true, publish = true)
+monochrome = true, publish = true)
 
 public class TestRunner extends AbstractTestNGCucumberTests {
 	@Override
