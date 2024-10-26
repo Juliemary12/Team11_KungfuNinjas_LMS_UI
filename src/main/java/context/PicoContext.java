@@ -14,6 +14,8 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import lms_PageObject.Dashboard;
 import lms_PageObject.LoginPage;
+import lms_PageObject.ProgramEdit;
+import lms_PageObject.ProgramPage;
 import lms_Utils.PropertiesFile;
 
 public class PicoContext {
@@ -23,11 +25,13 @@ public class PicoContext {
 	
 	LoginPage lo;
 	Dashboard db;
-	
+	ProgramEdit pe;
+	ProgramPage  programpage;
 	
 	public void setDriver(WebDriver driver) throws Throwable {
 		String browser = PropertiesFile.readPropertiesFile("browser");
-		
+        this.driver = driver;
+        initializePageObjects(driver);  
 		
 		// Uncomment for cross Browser testing
 		//String browser = TestNgConfigReader.getBrowserType();
@@ -65,7 +69,7 @@ public class PicoContext {
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		this.driver = driver;
+		//this.driver = driver;
 	}
 	
 	public WebDriver getDriver() {
@@ -80,14 +84,26 @@ public class PicoContext {
 		return db;
 	}	
 	
-		
+	public ProgramEdit getprogramedit() {
+		return pe;
+	}
 	
+	public ProgramPage getprogrampage() {
+		return programpage;
+	}
+	
+	public Dashboard getDashboardPage() {
+		return db;
+	}
 	public void initializePageObjects(WebDriver driver) {
 
-		//this.lo = new LoginPage(driver);
-		//this.db = new Dashboard(driver);
-		
+		this.lo = new LoginPage(driver);
+		this.pe = new ProgramEdit(driver);
+		this.db = new Dashboard(driver);
+		this.programpage = new ProgramPage(driver);
 		
 
 	}
+
+	
 }
