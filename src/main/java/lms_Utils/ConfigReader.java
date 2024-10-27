@@ -8,7 +8,7 @@ import java.util.Properties;
 
 public class ConfigReader {
 
-	private Properties properties;
+	private static Properties properties;
 	private final String configFilePath= "src/test/resources/lms_Config/config.properties";
 
 	public ConfigReader(){
@@ -41,7 +41,7 @@ public class ConfigReader {
 	  throw new RuntimeException("Application url not specified in the config.properties file.");
 	}
 
-	public String getUserName() {
+	public static String getUserName() {
 	String username = properties.getProperty("username");
 	if(username != null)
 	  return username;
@@ -49,7 +49,7 @@ public class ConfigReader {
 	  throw new RuntimeException("username not specified in the config.properties file.");
 	}
 
-	public String getPassword() {
+	public static String getPassword() {
 	String password = properties.getProperty("password");
 	if(password != null)
 	  return password;

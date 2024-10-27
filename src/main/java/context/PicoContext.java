@@ -14,6 +14,8 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import lms_PageObject.Dashboard;
 import lms_PageObject.LoginPage;
+import lms_PageObject.ProgramDetails;
+import lms_PageObject.ProgramPage;
 import lms_Utils.PropertiesFile;
 
 public class PicoContext {
@@ -23,6 +25,8 @@ public class PicoContext {
 	
 	LoginPage lo;
 	Dashboard db;
+	ProgramPage programpage;
+	ProgramDetails pdp;
 	
 	
 	public void setDriver(WebDriver driver) throws Throwable {
@@ -76,17 +80,25 @@ public class PicoContext {
 		return lo;
 	}	
 	
-	public Dashboard getLandingPage() {
+	public Dashboard getDashboardPage() {
 		return db;
 	}	
 	
+	public ProgramPage getProgramPage() {
+		return programpage;
+	}
+	
+	public ProgramDetails getProgramDetailsPage() {
+		return pdp;
+	}
 		
 	
 	public void initializePageObjects(WebDriver driver) {
 
-		//this.lo = new LoginPage(driver);
-		//this.db = new Dashboard(driver);
-		
+		this.lo = new LoginPage(driver);
+		this.db = new Dashboard(driver);
+		this.programpage = new ProgramPage(driver);
+		this.pdp = new ProgramDetails(driver);
 		
 
 	}
