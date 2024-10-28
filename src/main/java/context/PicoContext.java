@@ -84,7 +84,7 @@ public class PicoContext {
 	
 	public void initializePageObjects(WebDriver driver) {
 
-		//this.lo = new LoginPage(driver);
+		this.lo = new LoginPage(driver);
 		//this.db = new Dashboard(driver);
 		
 		
