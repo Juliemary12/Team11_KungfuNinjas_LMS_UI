@@ -115,7 +115,8 @@ public class LoginPage_SD {
 	@Then("Admin should see  LMS - Learning Management System on login page")
 	public void admin_should_see_lms_learning_management_system_on_login_page() throws IOException, TesseractException {
 	    
-		lo.appNameOnLogo();
+		 lo.appNameOnLogo();     
+		  
 	}
 
 	@Then("Admin should see company name below the app name on login page")
@@ -279,7 +280,7 @@ public class LoginPage_SD {
 	}
 
 	@Then("Admin should land on dashboard page")
-	public void admin_should_land_on_dashboard_page() {
+	public void admin_should_land_on_dashboard_page() throws InterruptedException {
 			
 		String url = lo.dashboardPgae();
 		
@@ -297,6 +298,12 @@ public class LoginPage_SD {
 	public void admin_should_see_login_button() {
 	    
 		lo.logoutButton();		
+	}
+	
+	@Then("Admin should see login button on the centre of the page")
+	public void admin_should_see_login_button_on_the_centre_of_the_page() {
+		
+		
 	}
 
 }

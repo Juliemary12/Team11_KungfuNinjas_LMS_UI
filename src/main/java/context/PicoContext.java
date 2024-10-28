@@ -12,6 +12,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import lms_PageObject.ClassPagesNavigation;
+import lms_PageObject.ClassPagination;
 import lms_PageObject.Dashboard;
 import lms_PageObject.LoginPage;
 import lms_Utils.PropertiesFile;
@@ -23,6 +25,8 @@ public class PicoContext {
 	
 	LoginPage lo;
 	Dashboard db;
+	ClassPagesNavigation classPGN;
+	ClassPagination CP;
 	
 	
 	public void setDriver(WebDriver driver) throws Throwable {
@@ -80,12 +84,21 @@ public class PicoContext {
 		return db;
 	}	
 	
-		
+	public ClassPagesNavigation getPageNavigation() {
+		return classPGN;	
+	}
 	
+	public ClassPagination getclasspagination() {
+		return CP;
+	}
+	
+
 	public void initializePageObjects(WebDriver driver) {
 
 		this.lo = new LoginPage(driver);
-		//this.db = new Dashboard(driver);
+//		this.db = new Dashboard(driver);
+		this.classPGN = new ClassPagesNavigation(driver);
+		this.CP =new ClassPagination(driver);
 		
 		
 
