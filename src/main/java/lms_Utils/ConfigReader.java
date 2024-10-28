@@ -40,7 +40,7 @@ public class ConfigReader {
 	else 
 	  throw new RuntimeException("Application url not specified in the config.properties file.");
 	}
-
+		
 	public String getUserName() {
 	String username = properties.getProperty("username");
 	if(username != null)
