@@ -296,7 +296,7 @@ public class LoginPage {
 				        
 				        if (image1 != null) {
 				            Tesseract tesseract = new Tesseract();
-				            tesseract.setDatapath("C:/Users/shwet/git/Team11_KungfuNinjas_LMS_UI");
+				            tesseract.setDatapath("C:/Users/shwet/git/Team11_KungfuNinjas_LMS_UI/tessdata");
 				            tesseract.setLanguage("eng");
 				            String extractedText = tesseract.doOCR(image1);
 				            System.out.println("Image Text: " + extractedText);
