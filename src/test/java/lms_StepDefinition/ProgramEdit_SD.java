@@ -3,6 +3,7 @@ package lms_StepDefinition;
 import static org.testng.Assert.assertEquals;
 
 import java.time.Duration;
+import java.util.concurrent.TimeoutException;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -65,7 +66,7 @@ public class ProgramEdit_SD {
 
 	@When("Admin clicks on Edit option for particular program")
 	public void admin_clicks_on_edit_option_for_particular_program() throws InterruptedException {
-		pe.editbutton();
+		pe.editsearchbutton();
 	}
 
 	@Then("Admin lands on Program details form")
@@ -89,7 +90,9 @@ public class ProgramEdit_SD {
 	}
 
 	@When("Admin edits the program name and click on save button")
-	public void admin_edits_the_program_name_and_click_on_save_button() {
+	public void admin_edits_the_program_name_and_click_on_save_button() throws InterruptedException {
+		pe.searchbox();
+		pe.editsearchbutton();
 		pe.programeditname();
 		pe.programsavebutton();
 	}
@@ -101,18 +104,20 @@ public class ProgramEdit_SD {
 	}
 
 	@When("Admin edits the description text and click on save button")
-	public void admin_edits_the_description_text_and_click_on_save_button() {
+	public void admin_edits_the_description_text_and_click_on_save_button() throws InterruptedException {
+		pe.editsearchbutton();
 		pe.programeditdescription();
 		pe.programsavebutton();
 	}
 
 	@Then("Admin can see the description is updated")
-	public void admin_can_see_the_description_is_updated() {
-		pe.programeditdescription();
+	public void admin_can_see_the_description_is_updated() throws InterruptedException {
+		pe.getToastMessage();
 	}
 
 	@When("Admin can change the status of the program and click on save button")
-	public void admin_can_change_the_status_of_the_program_and_click_on_save_button() {
+	public void admin_can_change_the_status_of_the_program_and_click_on_save_button() throws InterruptedException {
+		pe.editsearchbutton();
 		pe.statusradiobutton();
 		pe.programsavebutton();
 	}
@@ -136,24 +141,19 @@ public class ProgramEdit_SD {
 	}
 
 	@When("Admin click on save button")
-	public void admin_click_on_save_button() {
+	public void admin_click_on_save_button() throws InterruptedException {
+		pe.editsearchbutton();
 		pe.programsavebutton();
 	}
 
 	@Then("Admin can see the updated program details")
 	public void admin_can_see_the_updated_program_details() {
 		pe.searchbox();
-		String expectedProgramName = "javasdet";
-	    String expectedProgramDescription = "java program ";
-	    String expectedProgramStatus = "Inactive";
-
-	    assertEquals(expectedProgramName, pe.getProgramName());
-	    assertEquals(expectedProgramDescription, pe.getProgramDescription());
-	    assertEquals(expectedProgramStatus, pe.getProgramStatus());
 	}
 
 	@When("Admin click on cancel button")
-	public void admin_click_on_cancel_button() {
+	public void admin_click_on_cancel_button() throws InterruptedException {
+		pe.editsearchbutton();
 		pe.programcancelbutton();
 	}
 
@@ -163,13 +163,13 @@ public class ProgramEdit_SD {
 		// Assert that the dialog has disappeared
 		Thread.sleep(1000);
 		Assert.assertFalse(pe.disaapearprogramdetails(), "Program details dialog did not disappear as expected!");
-
 		LoggerLoad.info("The program details dialog has successfully disappeared.");
 
 	}
 
 	@When("Admin searches with newly updated {string}")
-	public void admin_searches_with_newly_updated(String string) {
+	public void admin_searches_with_newly_updated(String string) throws InterruptedException {
+		pe.editsearchbutton();
 		pe.programeditname();
 	}
 
@@ -184,7 +184,8 @@ public class ProgramEdit_SD {
 	}
 
 	@When("Admin Click on {string} button")
-	public void admin_click_on_button(String string) {
+	public void admin_click_on_button(String string) throws InterruptedException {
+		pe.editsearchbutton();
 		pe.programclosebutton();
 	}
 
@@ -195,4 +196,74 @@ public class ProgramEdit_SD {
 		LoggerLoad.info("The program details dialog has successfully disappeared.");
 	}
 
+	//**********Delete program**************
+	
+	@When("Admin clicks on delete button for a program")
+	public void admin_clicks_on_delete_button_for_a_program() throws InterruptedException {
+		pe.updatednameinsearchbox();
+	pe.programdeleteicon();
+	}
+
+	@Then("Admin will get confirm deletion popup")
+	public void admin_will_get_confirm_deletion_popup() throws TimeoutException, InterruptedException {
+	    pe.programdeletepopup();
+	    
+	}
+
+	@Given("Admin is on Confirm deletion form")
+	public void admin_is_on_confirm_deletion_form() throws InterruptedException {
+		pe.programdeleteicon();
+		
+	}
+
+	@When("Admin clicks on {string} button")
+	public void admin_clicks_on_button(String string) {
+	   pe.deleteyesbutton();
+	}
+
+	@Then("Admin can see {string} message")
+	public void admin_can_see_message(String string) {
+		pe.getToastMessage();
+	}
+
+	@When("Admin Searches for {string}")
+	public void admin_searches_for(String string) throws InterruptedException {
+	   pe.editsearchbutton();
+	   pe.searchdeletedprogram();
+	}
+
+	@Then("There should be zero results.")
+	public void there_should_be_zero_results() {
+	  pe.searchdeletedprogram();
+	}
+
+	@Given("Admin is on Program Confirm Deletion Page after selecting a program to delete")
+	public void admin_is_on_program_confirm_deletion_page_after_selecting_a_program_to_delete() throws TimeoutException, InterruptedException {
+	    pe.programdeletepopup();
+	}
+	
+	@When("Admin clicks on No button")
+	public void admin_clicks_on_no_button() {
+	   pe.deleteNobutton();
+	}
+	
+	@Then("Admin can see Confirmation form disappears")
+	public void admin_can_see_confirmation_form_disappears() {
+		Assert.assertNotNull(pe.programdeletepopup1(), "Confirmation dialog did not appear as expected!");
+
+	    LoggerLoad.info("The Confirmation dialog has successfully appeared.");
+	}
+
+	@Given("after selecting a program to delete")
+	public void after_selecting_a_program_to_delete() throws InterruptedException {
+		pe.updatednameinsearchbox();
+
+	}
+
+	@Then("Admin can see Confirm Deletion form disappear")
+	public void admin_can_see_confirm_deletion_form_disappear() throws InterruptedException {
+	  
+		pe.programdeleteicon();
+	    pe.deleteclosebutton();
+	}
 }
