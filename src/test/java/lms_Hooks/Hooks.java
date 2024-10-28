@@ -16,32 +16,30 @@ public class Hooks {
 
 	PicoContext pico;
 	static WebDriver driver;
-	
+
 	public Hooks(PicoContext pico) {
 		this.pico = pico;
 	}
-	
+
 	@Before
-	public void setUp() throws Throwable{
+	public void setUp() throws Throwable {
 		pico.setDriver(driver);
 		driver = pico.getDriver();
-		pico.initializePageObjects(driver);		
-		
+		pico.initializePageObjects(driver);
+
 	}
-	
-	@After 
+
+	@After
 	public void tearDown(Scenario scenario) {
-		
+
 //		To take a screenshot if there is any failed scenario. 
-		if(scenario.isFailed()) {
-			final byte[] screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
-			Allure.addAttachment("Failed Screenshot", new ByteArrayInputStream(screenshot));//Allure report screenshot
-			scenario.attach(screenshot, "image/png", "image");//Extent report screenshot
+		if (scenario.isFailed()) {
+			final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+			Allure.addAttachment("Failed Screenshot", new ByteArrayInputStream(screenshot));// Allure report screenshot
+			scenario.attach(screenshot, "image/png", "image");// Extent report screenshot
 		}
-		
-		//pico.getDriver().quit();
+
+		pico.getDriver().quit();
 	}
 
 }
-	
-

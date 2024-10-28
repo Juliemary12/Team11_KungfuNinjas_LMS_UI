@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import lms_Utils.ElementUtils;
@@ -32,8 +33,8 @@ public class ProgramDetails {
 	private By status = By.xpath("//div[@class='ng-star-inserted']");
 	private By statusinactive = By.xpath("//p-radiobutton[@ng-reflect-input-id='Inactive']");
 	private By statusactive = By.xpath("//p-radiobutton[@ng-reflect-input-id='Active']");
-	//p-radiobutton[@ng-reflect-value='Active']
-	private By Active_Selected = By.xpath("//p-radiobutton[@ng-reflect-value='Active']");
+	
+	private By Active_Selected = By.xpath("//div[@class='p-radiobutton p-component p-radiobutton-checked']");
 	private By ActiveSelected = By.xpath("//div[@class='p-radiobutton-box p-highlight']//span[@class='p-radiobutton-icon']");
 	//private By Active=By.xpath("//p-radiobutton[@class='ng-untouched ng-pristine ng-valid']//input[@type='radio' and @value='Active']");
 	//private By InActive=By.xpath("//p-radiobutton[@class='ng-untouched ng-pristine ng-valid']//input[@type='radio' and @value='Inactive']");
@@ -106,13 +107,23 @@ public class ProgramDetails {
 	}
 	
 	public void clickstatusActive() throws InterruptedException {
+//		 WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(10));
+//		    WebElement activeRadioButton = wait.until(ExpectedConditions.elementToBeClickable(statusactive));
+//		    activeRadioButton.click(); 
+		
 		webDriver.findElement(statusactive).click();
+	}
+	
+	public WebElement isActiveStatusBTnSelected() {
+		WebElement SelectedActiveBtn = webDriver.findElement(Active_Selected);
+		System.out.println("Active button is selected");
+		return SelectedActiveBtn;
+		//return webDriver.findElement(Active_Selected).isSelected();
 	}
 	
 	public void clickstatusInActive() throws InterruptedException {
 		webDriver.findElement(statusinactive).click();
 	}
-	
 	public void clickSaveBtn() {
 		util.doClick(saveBtn);
 	}
@@ -167,13 +178,15 @@ public class ProgramDetails {
 	   return ActiveradioButton;
 	}*/
 
-	/*public boolean isActiveRadioButtonSelected() {
+	/*public boolean clickActiveRadioBtn() {
 		//WebElement ActiveBtnSelected = webDriver.findElement(Active_Selected);
 		//System.out.println("Validation Passed");
 		//return webDriver.findElement(Active_Selected).isSelected();
 		//return ActiveBtnSelected;
 		WebElement ActiveBtnSelected = selectActiveRadioBtn();
 		return ActiveBtnSelected.isSelected();
+		
+		util.
 	}*/
 	
 	/*public Boolean isInActiveRadioButtonSelected() {

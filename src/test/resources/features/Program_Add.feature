@@ -9,9 +9,8 @@ Feature: Program Module
     Given Admin clicks the login button with valid username and password 
     Given Admin clicks "Program" on the navigation bar
     Given Admin clicks Add New Program button
-    #Given Admin is on Program details form
-    
-    ##################### Add New Program validation ################################
+        
+    ################### Add New Program validation ################################
     
     Scenario: Verify empty form submission
     When Admin clicks save button without entering mandatory  
@@ -33,9 +32,9 @@ Feature: Program Module
     When Admin enters the "Description" in description text box  
     Then Admin can see the text entered "SDET" in description box 
     
-    #Scenario: Verify select Status
-    #When Admin selects the status of the program by clicking on the radio button Active/InActive 
-    #Then Admin can see Active or Inactive status selected
+    Scenario: Verify select Status
+    When Admin selects the status of the program by clicking on the radio button Active/InActive 
+    Then Admin can see Active or Inactive status selected
     
     Scenario: Verify Admin is able to save the program details    
     When Admin enter valid details for mandatory fields "Name", "Description", status and Click on save button  
@@ -51,8 +50,5 @@ Feature: Program Module
     
     
     
-    
-    
-    
-    
+
     

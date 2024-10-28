@@ -12,24 +12,21 @@ import lms_Utils.LoggerLoad;
 public class Dashboard_SD {
 
 	WebDriver driver;
-    LoginPage lo;
-    Dashboard db;
-    PicoContext pico;
-	
-	
-	
-	
-	public Dashboard_SD(PicoContext pico) { 
+	LoginPage lo;
+	Dashboard db;
+	PicoContext pico;
+
+	public Dashboard_SD(PicoContext pico) {
 		this.pico = pico;
 		this.driver = pico.getDriver();
 		this.lo = pico.getLogin();
 		this.db = pico.getDashboardPage();
-		
+
 	}
-	
+
 	@When("Admin clicks {string} on the navigation bar")
 	public void admin_clicks_on_the_navigation_bar(String Program) {
-	    db.clickProgramMenu();
-	    LoggerLoad.info(" Admin clicks Program on the navigation bar ");
+		db.clickProgramMenu();
+		LoggerLoad.info(" Admin clicks Program on the navigation bar ");
 	}
 }

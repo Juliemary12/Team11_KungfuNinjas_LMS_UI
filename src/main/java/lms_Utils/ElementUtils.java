@@ -19,15 +19,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ElementUtils {
 
-private WebDriver webDriver;
-	
-	
-	
+	private WebDriver webDriver;
+
 	public ElementUtils(WebDriver driver) {
 		super();
-		this.webDriver=driver;
+		this.webDriver = driver;
 	}
-	
+
 	public WebElement elementWithFluentWaitLocated(By locator, int timeOutInSeconds, int pollingIntervalInMillis) {
 
 		WebElement ele = new FluentWait<WebDriver>(webDriver).withTimeout(Duration.ofSeconds(timeOutInSeconds))
@@ -35,13 +33,12 @@ private WebDriver webDriver;
 				.until(ExpectedConditions.visibilityOfElementLocated(locator));
 
 		return ele;
-
 	}
-	
+
 	public String getAttributeVal(By locator, String attributeName) {
 		return elementWithFluentWaitLocated(locator, 10, 100).getAttribute(attributeName);
 	}
-	
+
 	public boolean isElementDisplayed(By locator) {
 		boolean flag = false;
 		try {
@@ -68,7 +65,7 @@ private WebDriver webDriver;
 	public WebElement getElement(By locator) {
 		return webDriver.findElement(locator);
 	}
-	
+
 	public void doClick(WebElement ele) {
 
 		try {
@@ -113,7 +110,6 @@ private WebDriver webDriver;
 
 					try {
 
-						
 						ele.click();
 
 					} catch (Exception e) {
@@ -165,13 +161,13 @@ private WebDriver webDriver;
 		}
 
 	}
-	
+
 	public void clearExistingText(WebElement ele) {
 		ele.sendKeys(Keys.CONTROL);
 		ele.sendKeys("A");
 		ele.sendKeys(Keys.BACK_SPACE);
 	}
-	
+
 	public WebElement elementWithFluentWaitClickable(By locator, int timeOutInSeconds, int pollingIntervalInMillis) {
 
 		WebElement ele = new FluentWait<WebDriver>(webDriver).withTimeout(Duration.ofSeconds(timeOutInSeconds))
@@ -181,8 +177,28 @@ private WebDriver webDriver;
 
 		return ele;
 	}
-	
+
 	public List<WebElement> getElements(By locator) {
 		return webDriver.findElements(locator);
+	}
+
+	public int getElementSize(By locator) {
+
+		int size = 0;
+		try {
+
+			List<WebElement> ele = new WebDriverWait(webDriver, Duration.ofSeconds(40))
+					.until(ExpectedConditions.visibilityOfAllElements(getElements(locator)));
+			size = ele.size();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		return size;
+	}
+
+	public String getElementText(By locator) {
+		elementWithFluentWaitLocated(locator, 10, 100);
+		return getElement(locator).getText();
 	}
 }
