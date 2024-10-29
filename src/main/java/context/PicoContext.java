@@ -12,10 +12,14 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import lms_PageObject.BatchPage;
 import lms_PageObject.ClassPagesNavigation;
 import lms_PageObject.ClassPagination;
 import lms_PageObject.Dashboard;
 import lms_PageObject.LoginPage;
+import lms_PageObject.ProgramDetails;
+import lms_PageObject.ProgramEdit;
+import lms_PageObject.ProgramPage;
 import lms_Utils.PropertiesFile;
 
 public class PicoContext {
@@ -27,7 +31,10 @@ public class PicoContext {
 	Dashboard db;
 	ClassPagesNavigation classPGN;
 	ClassPagination CP;
-	
+	ProgramPage programpage;
+	ProgramDetails pdp;
+	BatchPage batch;
+	ProgramEdit pe;
 	
 	public void setDriver(WebDriver driver) throws Throwable {
 		String browser = PropertiesFile.readPropertiesFile("browser");
@@ -42,7 +49,7 @@ public class PicoContext {
 			ChromeOptions co = new ChromeOptions();
 			WebDriverManager.chromedriver().setup();
 			
-			//co.addArguments("--headless");
+			co.addArguments("--headless");
 			co.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 			driver = new ChromeDriver(co);
 			threadLocalDriver.set(driver);
@@ -91,16 +98,36 @@ public class PicoContext {
 	public ClassPagination getclasspagination() {
 		return CP;
 	}
+	public Dashboard getDashboardPage() {
+		return db;
+	}
+
+	public ProgramPage getProgramPage() {
+		return programpage;
+	}
+
+	public ProgramDetails getProgramDetailsPage() {
+		return pdp;
+	}
 	
+	public BatchPage getBatch() {
+		return batch;
+	}
+	
+	public ProgramEdit getprogramedit() {
+		return pe;
+	}
 
 	public void initializePageObjects(WebDriver driver) {
 
 		this.lo = new LoginPage(driver);
-//		this.db = new Dashboard(driver);
+		this.db = new Dashboard(driver);
+		this.programpage = new ProgramPage(driver);
+		this.pdp = new ProgramDetails(driver);
 		this.classPGN = new ClassPagesNavigation(driver);
 		this.CP =new ClassPagination(driver);
-		
-		
+		this.batch=new BatchPage(driver);
+		this.pe = new ProgramEdit(driver);
 
 	}
 }

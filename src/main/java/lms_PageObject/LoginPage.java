@@ -497,6 +497,14 @@ public class LoginPage {
 			
 		
 	}
+		 
+		 public void loginsucess() {
+				String userName = PropertiesFile.readPropertiesFile("userName");
+				String passWord = PropertiesFile.readPropertiesFile("passWord");
+				webDriver.findElement(username).sendKeys(userName);
+				webDriver.findElement(password).sendKeys(passWord);
+
+			}
 }
 
 

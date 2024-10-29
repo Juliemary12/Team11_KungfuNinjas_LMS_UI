@@ -29,3 +29,391 @@
 [INFO ]2024-10-28 18:10:58.511 [TestNG-PoolService-3]LoggerLoad-Validation Of User Text Color
 [INFO ]2024-10-28 18:11:01.988 [TestNG-PoolService-8]LoggerLoad-Validate Asterisk On Second Field*
 [INFO ]2024-10-28 18:11:10.186 [TestNG-PoolService-3]LoggerLoad-Validate Location Of Login Button
+[INFO ]2024-10-29 00:13:47.015 [TestNG-PoolService-2]LoggerLoad-Validate Login Text ContentPlease login to LMS application
+[INFO ]2024-10-29 00:13:48.978 [TestNG-PoolService-0]LoggerLoad-Validate Text on First FieldUser *
+[INFO ]2024-10-29 00:13:49.373 [TestNG-PoolService-9]LoggerLoad-Validate Asterisk on First FieldUser *
+[INFO ]2024-10-29 00:14:00.375 [TestNG-PoolService-8]LoggerLoad-Validate Text On Second FieldPassword
+[INFO ]2024-10-29 00:14:02.390 [TestNG-PoolService-3]LoggerLoad-Validate Location Of Login Button
+[INFO ]2024-10-29 00:14:02.732 [TestNG-PoolService-1]LoggerLoad-Validation Of Login Button
+[INFO ]2024-10-29 00:14:03.900 [TestNG-PoolService-2]LoggerLoad-Validation Of User Text Color
+[INFO ]2024-10-29 00:14:04.854 [TestNG-PoolService-6]LoggerLoad-Validate Asterisk On Second Field*
+[INFO ]2024-10-29 00:14:11.393 [TestNG-PoolService-4]LoggerLoad-Validation Of Input Field
+[INFO ]2024-10-29 00:14:32.926 [TestNG-PoolService-6]LoggerLoad-Validate Location Of Login Button
+[INFO ]2024-10-29 01:24:37.119 [TestNG-PoolService-2]LoggerLoad-Validate Login Text ContentPlease login to LMS application
+[INFO ]2024-10-29 01:24:39.400 [TestNG-PoolService-9]LoggerLoad-Validate Text on First FieldUser *
+[INFO ]2024-10-29 01:24:39.427 [TestNG-PoolService-5]LoggerLoad-Validate Asterisk on First FieldUser *
+[INFO ]2024-10-29 01:24:42.140 [TestNG-PoolService-8]LoggerLoad-Validate Text On Second FieldPassword
+[INFO ]2024-10-29 01:24:43.601 [TestNG-PoolService-1]LoggerLoad-Validate Asterisk On Second Field*
+[INFO ]2024-10-29 01:24:50.330 [TestNG-PoolService-4]LoggerLoad-Validate Location Of Login Button
+[INFO ]2024-10-29 01:24:53.146 [TestNG-PoolService-0]LoggerLoad-Validation Of Login Button
+[INFO ]2024-10-29 01:24:53.354 [TestNG-PoolService-7]LoggerLoad-Validation Of User Text Color
+[INFO ]2024-10-29 01:24:59.318 [TestNG-PoolService-6]LoggerLoad-Validation Of Input Field
+[INFO ]2024-10-29 01:25:11.552 [TestNG-PoolService-4]LoggerLoad-Validate Location Of Login Button
+[INFO ]2024-10-29 01:38:12.347 [TestNG-PoolService-1]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:38:12.546 [TestNG-PoolService-1]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 01:38:12.785 [TestNG-PoolService-1]LoggerLoad- Admin clicked Cancel button
+[INFO ]2024-10-29 01:38:13.841 [TestNG-PoolService-1]LoggerLoad- Admin sees Program Details form disappears
+[INFO ]2024-10-29 01:41:09.254 [TestNG-PoolService-0]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:41:09.254 [TestNG-PoolService-1]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:41:09.481 [TestNG-PoolService-0]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 01:41:09.482 [TestNG-PoolService-1]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 01:41:09.691 [TestNG-PoolService-1]LoggerLoad- Admin clicked Cancel button
+[INFO ]2024-10-29 01:41:10.408 [TestNG-PoolService-0]LoggerLoad-Admin clicks save button without entering mandatory
+[INFO ]2024-10-29 01:41:10.751 [TestNG-PoolService-1]LoggerLoad- Admin sees Program Details form disappears
+[INFO ]2024-10-29 01:43:21.044 [TestNG-PoolService-0]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:43:21.044 [TestNG-PoolService-2]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:43:21.044 [TestNG-PoolService-3]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:43:21.044 [TestNG-PoolService-1]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:43:21.518 [TestNG-PoolService-1]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 01:43:21.530 [TestNG-PoolService-0]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 01:43:21.557 [TestNG-PoolService-2]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 01:43:21.578 [TestNG-PoolService-3]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 01:43:21.990 [TestNG-PoolService-1]LoggerLoad- Admin clicked Cancel button
+[INFO ]2024-10-29 01:43:22.083 [TestNG-PoolService-3]LoggerLoad- Admin enters the Name in the text box
+[INFO ]2024-10-29 01:43:22.109 [TestNG-PoolService-2]LoggerLoad- Admin clicked X button
+[INFO ]2024-10-29 01:43:22.200 [TestNG-PoolService-3]LoggerLoad- Admin sees the entered name
+[INFO ]2024-10-29 01:43:23.053 [TestNG-PoolService-1]LoggerLoad- Admin sees Program Details form disappears
+[INFO ]2024-10-29 01:43:23.180 [TestNG-PoolService-2]LoggerLoad- Admin sees Program Details form disappears
+[INFO ]2024-10-29 01:43:23.377 [TestNG-PoolService-4]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:43:23.428 [TestNG-PoolService-0]LoggerLoad-Admin clicks save button without entering mandatory
+[INFO ]2024-10-29 01:43:24.239 [TestNG-PoolService-4]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 01:43:24.417 [TestNG-PoolService-4]LoggerLoad- Admin enters the Description in the text box
+[INFO ]2024-10-29 01:43:24.477 [TestNG-PoolService-4]LoggerLoad- Admin sees the entered text in Description box
+[INFO ]2024-10-29 01:44:37.056 [TestNG-PoolService-5]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:44:37.056 [TestNG-PoolService-2]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:44:37.056 [TestNG-PoolService-7]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:44:37.570 [TestNG-PoolService-5]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 01:44:37.583 [TestNG-PoolService-7]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 01:44:37.664 [TestNG-PoolService-2]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 01:44:38.130 [TestNG-PoolService-5]LoggerLoad- Admin selects the status of the program by clicking on the radio button Active or InActive
+[INFO ]2024-10-29 01:44:38.189 [TestNG-PoolService-2]LoggerLoad- Admin clicked X button
+[INFO ]2024-10-29 01:44:38.360 [TestNG-PoolService-3]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:44:38.428 [TestNG-PoolService-7]LoggerLoad- Admin clicked X button
+[INFO ]2024-10-29 01:44:38.886 [TestNG-PoolService-7]LoggerLoad-Admin searches with newly created name
+[INFO ]2024-10-29 01:44:38.977 [TestNG-PoolService-3]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 01:44:39.294 [TestNG-PoolService-3]LoggerLoad- Admin enters the Name in the text box
+[INFO ]2024-10-29 01:44:39.329 [TestNG-PoolService-2]LoggerLoad- Admin sees Program Details form disappears
+[INFO ]2024-10-29 01:44:39.455 [TestNG-PoolService-3]LoggerLoad- Admin sees the entered name
+[INFO ]2024-10-29 01:44:42.300 [TestNG-PoolService-6]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:44:43.406 [TestNG-PoolService-6]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 01:44:43.605 [TestNG-PoolService-4]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:44:44.092 [TestNG-PoolService-4]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 01:44:44.477 [TestNG-PoolService-4]LoggerLoad- Admin enters the Description in the text box
+[INFO ]2024-10-29 01:44:44.586 [TestNG-PoolService-4]LoggerLoad- Admin sees the entered text in Description box
+[INFO ]2024-10-29 01:44:46.409 [TestNG-PoolService-0]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:44:47.099 [TestNG-PoolService-1]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:44:47.285 [TestNG-PoolService-0]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 01:44:47.469 [TestNG-PoolService-1]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 01:44:47.703 [TestNG-PoolService-1]LoggerLoad- Admin clicked Cancel button
+[INFO ]2024-10-29 01:44:47.984 [TestNG-PoolService-6]LoggerLoad-Admin Enters valid data in all fields and clicks on save to create a Program
+[INFO ]2024-10-29 01:44:48.697 [TestNG-PoolService-0]LoggerLoad-Admin clicks save button without entering mandatory
+[INFO ]2024-10-29 01:44:48.760 [TestNG-PoolService-1]LoggerLoad- Admin sees Program Details form disappears
+[INFO ]2024-10-29 01:44:49.098 [TestNG-PoolService-6]LoggerLoad-Admin sees Successful Program created
+[INFO ]2024-10-29 01:47:42.198 [TestNG-PoolService-4]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:47:42.198 [TestNG-PoolService-3]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:47:42.198 [TestNG-PoolService-7]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:47:42.198 [TestNG-PoolService-8]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:47:42.382 [TestNG-PoolService-8]LoggerLoad- Admin sees a Delete button in left top is disabled
+[INFO ]2024-10-29 01:47:42.382 [TestNG-PoolService-4]LoggerLoad- Admin sees the Logout in menu bar 
+[INFO ]2024-10-29 01:47:42.913 [TestNG-PoolService-1]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:47:44.237 [TestNG-PoolService-6]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:47:44.314 [TestNG-PoolService-7]LoggerLoad- Admin is able to see the Program name, description, and status for each program 
+[INFO ]2024-10-29 01:47:44.505 [TestNG-PoolService-6]LoggerLoad- Admin sees the heading Manage Program 
+[INFO ]2024-10-29 01:47:45.740 [TestNG-PoolService-5]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:47:45.878 [TestNG-PoolService-5]LoggerLoad- Admin sees the Add New Program in Sub menu bar 
+[INFO ]2024-10-29 01:47:54.888 [TestNG-PoolService-7]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:47:54.895 [TestNG-PoolService-4]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:47:54.900 [TestNG-PoolService-0]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:47:55.073 [TestNG-PoolService-0]LoggerLoad- Admin navigated to Program module
+[INFO ]2024-10-29 01:47:56.019 [TestNG-PoolService-7]LoggerLoad- Admin sees check box default state as unchecked on the left side in all rows against program name
+[INFO ]2024-10-29 01:47:56.249 [TestNG-PoolService-6]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:47:56.543 [TestNG-PoolService-6]LoggerLoad- Admin sees the sort arrow icon beside to each column header except Edit and Delete
+[INFO ]2024-10-29 01:47:57.084 [TestNG-PoolService-4]LoggerLoad- Admin sees data table with column header on the Manage Program Page 
+[INFO ]2024-10-29 01:47:58.306 [TestNG-PoolService-2]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:47:58.556 [TestNG-PoolService-2]LoggerLoad- Admin sees the LMS heading 
+[INFO ]2024-10-29 01:48:13.513 [TestNG-PoolService-3]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:48:14.306 [TestNG-PoolService-3]LoggerLoad- Admin is able to see the text as Showing x to y of z entries along with Pagination icon below the table. 
+[INFO ]2024-10-29 01:48:20.494 [TestNG-PoolService-8]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:48:21.571 [TestNG-PoolService-8]LoggerLoad- Admin sees checkbox default state as unchecked beside Program Name column header
+[INFO ]2024-10-29 01:48:38.487 [TestNG-PoolService-6]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:48:38.680 [TestNG-PoolService-5]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:48:38.864 [TestNG-PoolService-7]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:48:42.096 [TestNG-PoolService-1]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:48:45.026 [TestNG-PoolService-7]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 01:48:45.365 [TestNG-PoolService-6]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 01:48:46.243 [TestNG-PoolService-7]LoggerLoad- Admin sees window title as Program Details
+[INFO ]2024-10-29 01:48:48.402 [TestNG-PoolService-0]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:48:49.047 [TestNG-PoolService-5]LoggerLoad- Admin is able to see the Edit and Delete buttons on each row of the data table 
+[INFO ]2024-10-29 01:48:50.359 [TestNG-PoolService-4]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:48:52.329 [TestNG-PoolService-0]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 01:48:52.502 [TestNG-PoolService-8]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:48:53.168 [TestNG-PoolService-3]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:48:53.518 [TestNG-PoolService-0]LoggerLoad- Admin sees pop up window for Program Details
+[INFO ]2024-10-29 01:48:54.674 [TestNG-PoolService-2]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:48:59.542 [TestNG-PoolService-9]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 01:49:03.018 [TestNG-PoolService-1]LoggerLoad- Admin clicks Program on the navigation bar 
+[ERROR]2024-10-29 01:49:49.084 [TestNG-PoolService-8]LoggerLoad-Element is not enabled
+[ERROR]2024-10-29 01:49:58.246 [TestNG-PoolService-9]LoggerLoad-Element is not enabled
+[ERROR]2024-10-29 01:50:03.567 [TestNG-PoolService-1]LoggerLoad-Element is not enabled
+[INFO ]2024-10-29 01:50:39.067 [TestNG-PoolService-8]LoggerLoad-Admin clicks the sort icon of {colName} column twice  
+[INFO ]2024-10-29 01:50:39.074 [TestNG-PoolService-8]LoggerLoad-The data get sorted on the table based on the program name column values in descending order  
+[INFO ]2024-10-29 01:50:55.756 [TestNG-PoolService-9]LoggerLoad-Admin clicks the sort icon of {colName} column twice  
+[INFO ]2024-10-29 01:50:56.628 [TestNG-PoolService-3]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-29 01:50:56.632 [TestNG-PoolService-3]LoggerLoad-The data get sorted on the table based on the program name column values in ascending order  
+[INFO ]2024-10-29 01:51:02.332 [TestNG-PoolService-1]LoggerLoad-Admin clicks the sort icon of {colName} column twice  
+[INFO ]2024-10-29 01:51:02.335 [TestNG-PoolService-1]LoggerLoad-The data get sorted on the table based on the program name column values in descending order  
+[INFO ]2024-10-29 01:51:17.301 [TestNG-PoolService-2]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-29 01:51:19.332 [TestNG-PoolService-4]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-29 08:29:20.974 [main]LoggerLoad-Validate Login Text ContentPlease login to LMS application
+[INFO ]2024-10-29 08:29:28.126 [main]LoggerLoad-Validate Text on First FieldUser *
+[INFO ]2024-10-29 08:29:30.898 [main]LoggerLoad-Validate Asterisk on First FieldUser *
+[INFO ]2024-10-29 08:29:33.907 [main]LoggerLoad-Validate Text On Second FieldPassword
+[INFO ]2024-10-29 08:29:37.328 [main]LoggerLoad-Validate Asterisk On Second Field*
+[INFO ]2024-10-29 08:29:44.508 [main]LoggerLoad-Validation Of Login Button
+[INFO ]2024-10-29 08:29:51.937 [main]LoggerLoad-Validation Of User Text Color
+[INFO ]2024-10-29 08:35:45.817 [main]LoggerLoad- Admin sees the LMS heading 
+[INFO ]2024-10-29 08:35:52.139 [main]LoggerLoad- Admin sees the Logout in menu bar 
+[INFO ]2024-10-29 08:38:46.751 [main]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 08:39:26.169 [main]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 08:39:56.308 [main]LoggerLoad-Admin clicks save button without entering mandatory
+[INFO ]2024-10-29 08:40:19.524 [main]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 08:40:29.566 [main]LoggerLoad- Admin clicked Cancel button
+[INFO ]2024-10-29 09:14:16.712 [main]LoggerLoad- Admin sees the heading Program Details 
+[INFO ]2024-10-29 09:14:20.369 [main]LoggerLoad- Admin sees the red * mark 
+[INFO ]2024-10-29 09:14:42.963 [main]LoggerLoad-Admin sees the updated status: Active
+[INFO ]2024-10-29 09:14:43.030 [main]LoggerLoad- Admin sees the updated status of radio button 
+[INFO ]2024-10-29 09:14:52.755 [main]LoggerLoad-The program details dialog has successfully disappeared.
+[INFO ]2024-10-29 09:15:00.913 [main]LoggerLoad-The program details dialog has successfully disappeared.
+[INFO ]2024-10-29 09:15:55.265 [main]LoggerLoad-The Confirmation dialog has successfully appeared.
+[INFO ]2024-10-29 09:17:19.994 [main]LoggerLoad- Admin sees the heading Program Details 
+[INFO ]2024-10-29 09:17:22.923 [main]LoggerLoad- Admin sees the red * mark 
+[INFO ]2024-10-29 09:17:43.347 [main]LoggerLoad-Admin sees the updated status: Active
+[INFO ]2024-10-29 09:17:43.383 [main]LoggerLoad- Admin sees the updated status of radio button 
+[INFO ]2024-10-29 09:17:50.118 [main]LoggerLoad-The program details dialog has successfully disappeared.
+[INFO ]2024-10-29 09:17:56.564 [main]LoggerLoad-The program details dialog has successfully disappeared.
+[INFO ]2024-10-29 09:18:42.506 [main]LoggerLoad-The Confirmation dialog has successfully appeared.
+[INFO ]2024-10-29 09:20:31.107 [main]LoggerLoad- Admin sees the heading Program Details 
+[INFO ]2024-10-29 09:20:34.300 [main]LoggerLoad- Admin sees the red * mark 
+[INFO ]2024-10-29 09:20:43.700 [main]LoggerLoad-Admin sees the updated status: Active
+[INFO ]2024-10-29 09:20:43.728 [main]LoggerLoad- Admin sees the updated status of radio button 
+[INFO ]2024-10-29 09:20:50.407 [main]LoggerLoad-The program details dialog has successfully disappeared.
+[INFO ]2024-10-29 09:20:57.468 [main]LoggerLoad-The program details dialog has successfully disappeared.
+[INFO ]2024-10-29 09:21:44.203 [main]LoggerLoad-The Confirmation dialog has successfully appeared.
+[INFO ]2024-10-29 09:39:10.499 [main]LoggerLoad- Admin sees the heading Program Details 
+[INFO ]2024-10-29 09:39:13.366 [main]LoggerLoad- Admin sees the red * mark 
+[INFO ]2024-10-29 09:39:36.046 [main]LoggerLoad-Admin sees the updated status: Active
+[INFO ]2024-10-29 09:39:36.065 [main]LoggerLoad- Admin sees the updated status of radio button 
+[INFO ]2024-10-29 09:39:43.100 [main]LoggerLoad-The program details dialog has successfully disappeared.
+[INFO ]2024-10-29 09:39:49.051 [main]LoggerLoad-The program details dialog has successfully disappeared.
+[INFO ]2024-10-29 09:40:35.556 [main]LoggerLoad-The Confirmation dialog has successfully appeared.
+[INFO ]2024-10-29 09:51:12.399 [main]LoggerLoad- Admin sees the heading Program Details 
+[INFO ]2024-10-29 09:51:15.835 [main]LoggerLoad- Admin sees the red * mark 
+[INFO ]2024-10-29 09:51:37.869 [main]LoggerLoad-Admin sees the updated status: Active
+[INFO ]2024-10-29 09:51:37.912 [main]LoggerLoad- Admin sees the updated status of radio button 
+[INFO ]2024-10-29 09:51:44.431 [main]LoggerLoad-The program details dialog has successfully disappeared.
+[INFO ]2024-10-29 09:51:50.301 [main]LoggerLoad-The program details dialog has successfully disappeared.
+[INFO ]2024-10-29 09:52:54.392 [main]LoggerLoad-The Confirmation dialog has successfully appeared.
+[INFO ]2024-10-29 09:58:36.352 [main]LoggerLoad- Admin sees the heading Program Details 
+[INFO ]2024-10-29 09:58:39.997 [main]LoggerLoad- Admin sees the red * mark 
+[INFO ]2024-10-29 09:58:59.619 [main]LoggerLoad-Admin sees the updated status: Active
+[INFO ]2024-10-29 09:58:59.647 [main]LoggerLoad- Admin sees the updated status of radio button 
+[INFO ]2024-10-29 09:59:07.127 [main]LoggerLoad-The program details dialog has successfully disappeared.
+[INFO ]2024-10-29 09:59:13.207 [main]LoggerLoad-The program details dialog has successfully disappeared.
+[INFO ]2024-10-29 09:59:47.814 [main]LoggerLoad-The Confirmation dialog has successfully appeared.
+[INFO ]2024-10-29 10:00:00.990 [main]LoggerLoad-The Confirmation dialog has successfully appeared.
+[INFO ]2024-10-29 10:20:26.136 [main]LoggerLoad-LMS-Learning Management System :Title displayed
+[INFO ]2024-10-29 10:20:29.227 [main]LoggerLoad-admin should see : Manage Batch
+[INFO ]2024-10-29 10:20:32.160 [main]LoggerLoad-admin should see disabled DeleteButton
+[INFO ]2024-10-29 10:20:35.696 [main]LoggerLoad-admin should see enabled pagination controls
+[INFO ]2024-10-29 10:20:39.004 [main]LoggerLoad-edit icon in each row displayed
+[INFO ]2024-10-29 10:20:42.060 [main]LoggerLoad-delete icon in each row displayed
+[INFO ]2024-10-29 10:20:44.895 [main]LoggerLoad-checkbox is displayed in each row
+[INFO ]2024-10-29 10:20:47.739 [main]LoggerLoad-null
+[INFO ]2024-10-29 10:20:50.939 [main]LoggerLoad-checkbox in the datatable header is displayed 
+[INFO ]2024-10-29 10:20:53.683 [main]LoggerLoad-sort icon next to all Datatable headers is displayed 
+[INFO ]2024-10-29 10:24:16.002 [main]LoggerLoad-LMS-Learning Management System :Title displayed
+[INFO ]2024-10-29 10:24:19.216 [main]LoggerLoad-admin should see : Manage Batch
+[INFO ]2024-10-29 10:24:24.444 [main]LoggerLoad-admin should see disabled DeleteButton
+[INFO ]2024-10-29 10:24:27.474 [main]LoggerLoad-admin should see enabled pagination controls
+[INFO ]2024-10-29 10:24:30.911 [main]LoggerLoad-edit icon in each row displayed
+[INFO ]2024-10-29 10:24:33.793 [main]LoggerLoad-delete icon in each row displayed
+[INFO ]2024-10-29 10:24:36.892 [main]LoggerLoad-checkbox is displayed in each row
+[INFO ]2024-10-29 10:24:39.503 [main]LoggerLoad-null
+[INFO ]2024-10-29 10:24:42.736 [main]LoggerLoad-checkbox in the datatable header is displayed 
+[INFO ]2024-10-29 10:24:45.716 [main]LoggerLoad-sort icon next to all Datatable headers is displayed 
+[INFO ]2024-10-29 10:26:29.783 [main]LoggerLoad-LMS-Learning Management System :Title displayed
+[INFO ]2024-10-29 10:26:32.583 [main]LoggerLoad-admin should see : Manage Batch
+[INFO ]2024-10-29 10:26:36.029 [main]LoggerLoad-admin should see disabled DeleteButton
+[INFO ]2024-10-29 10:26:38.971 [main]LoggerLoad-admin should see enabled pagination controls
+[INFO ]2024-10-29 10:26:41.928 [main]LoggerLoad-edit icon in each row displayed
+[INFO ]2024-10-29 10:26:45.398 [main]LoggerLoad-delete icon in each row displayed
+[INFO ]2024-10-29 10:26:48.232 [main]LoggerLoad-checkbox is displayed in each row
+[INFO ]2024-10-29 10:26:51.107 [main]LoggerLoad-null
+[INFO ]2024-10-29 10:26:54.380 [main]LoggerLoad-checkbox in the datatable header is displayed 
+[INFO ]2024-10-29 10:26:57.331 [main]LoggerLoad-sort icon next to all Datatable headers is displayed 
+[INFO ]2024-10-29 10:33:21.064 [TestNG-PoolService-5]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:21.064 [TestNG-PoolService-0]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:21.064 [TestNG-PoolService-3]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:21.064 [TestNG-PoolService-4]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:21.064 [TestNG-PoolService-8]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:21.064 [TestNG-PoolService-7]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:21.064 [TestNG-PoolService-9]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:21.064 [TestNG-PoolService-6]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:21.064 [TestNG-PoolService-1]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:21.064 [TestNG-PoolService-2]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:21.137 [TestNG-PoolService-0]LoggerLoad- Admin navigated to Program module
+[INFO ]2024-10-29 10:33:21.288 [TestNG-PoolService-2]LoggerLoad- Admin sees the LMS heading 
+[INFO ]2024-10-29 10:33:21.290 [TestNG-PoolService-4]LoggerLoad- Admin sees the Logout in menu bar 
+[INFO ]2024-10-29 10:33:21.288 [TestNG-PoolService-5]LoggerLoad- Admin sees the Add New Program in Sub menu bar 
+[INFO ]2024-10-29 10:33:21.292 [TestNG-PoolService-8]LoggerLoad- Admin sees a Delete button in left top is disabled
+[INFO ]2024-10-29 10:33:21.295 [TestNG-PoolService-6]LoggerLoad- Admin sees the heading Manage Program 
+[INFO ]2024-10-29 10:33:21.635 [TestNG-PoolService-9]LoggerLoad- Admin sees Search bar with text search 
+[INFO ]2024-10-29 10:33:22.160 [TestNG-PoolService-7]LoggerLoad- Admin is able to see the Program name, description, and status for each program 
+[INFO ]2024-10-29 10:33:34.191 [TestNG-PoolService-4]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:34.865 [TestNG-PoolService-5]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:34.941 [TestNG-PoolService-4]LoggerLoad- Admin sees data table with column header on the Manage Program Page 
+[INFO ]2024-10-29 10:33:35.472 [TestNG-PoolService-5]LoggerLoad- Admin sees checkbox default state as unchecked beside Program Name column header
+[INFO ]2024-10-29 10:33:35.883 [TestNG-PoolService-3]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:36.549 [TestNG-PoolService-6]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:37.063 [TestNG-PoolService-3]LoggerLoad- Admin sees the sort arrow icon beside to each column header except Edit and Delete
+[INFO ]2024-10-29 10:33:37.116 [TestNG-PoolService-8]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:37.597 [TestNG-PoolService-8]LoggerLoad- Admin is able to see the text as Showing x to y of z entries along with Pagination icon below the table. 
+[INFO ]2024-10-29 10:33:37.863 [TestNG-PoolService-7]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:37.963 [TestNG-PoolService-6]LoggerLoad- Admin is able to see the Edit and Delete buttons on each row of the data table 
+[INFO ]2024-10-29 10:33:38.379 [TestNG-PoolService-0]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:38.419 [TestNG-PoolService-7]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 10:33:38.657 [TestNG-PoolService-9]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:38.714 [TestNG-PoolService-7]LoggerLoad- Admin sees window title as Program Details
+[INFO ]2024-10-29 10:33:38.809 [TestNG-PoolService-2]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:39.137 [TestNG-PoolService-9]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 10:33:39.297 [TestNG-PoolService-9]LoggerLoad- Admin sees pop up window for Program Details
+[INFO ]2024-10-29 10:33:39.385 [TestNG-PoolService-0]LoggerLoad- Admin sees check box default state as unchecked on the left side in all rows against program name
+[INFO ]2024-10-29 10:33:46.214 [TestNG-PoolService-8]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:46.530 [TestNG-PoolService-5]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:46.807 [TestNG-PoolService-1]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:47.060 [TestNG-PoolService-5]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 10:33:47.140 [TestNG-PoolService-5]LoggerLoad- Admin sees red * mark beside mandatory field Name
+[INFO ]2024-10-29 10:33:47.503 [TestNG-PoolService-6]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:47.528 [TestNG-PoolService-7]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:48.654 [TestNG-PoolService-0]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:33:48.807 [TestNG-PoolService-2]LoggerLoad- Admin clicks Program on the navigation bar 
+[ERROR]2024-10-29 10:33:48.897 [TestNG-PoolService-0]LoggerLoad-Element is not enabled
+[ERROR]2024-10-29 10:34:15.424 [TestNG-PoolService-6]LoggerLoad-Element is not enabled
+[ERROR]2024-10-29 10:34:15.786 [TestNG-PoolService-2]LoggerLoad-Element is not enabled
+[INFO ]2024-10-29 10:34:19.468 [TestNG-PoolService-0]LoggerLoad-Admin clicks the sort icon of {colName} column twice  
+[INFO ]2024-10-29 10:34:42.496 [TestNG-PoolService-2]LoggerLoad-Admin clicks the sort icon of {colName} column twice  
+[INFO ]2024-10-29 10:34:42.497 [TestNG-PoolService-2]LoggerLoad-The data get sorted on the table based on the program name column values in descending order  
+[INFO ]2024-10-29 10:34:43.233 [TestNG-PoolService-8]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-29 10:34:43.611 [TestNG-PoolService-1]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-29 10:34:43.831 [TestNG-PoolService-7]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-29 10:34:43.833 [TestNG-PoolService-7]LoggerLoad-The data get sorted on the table based on the program name column values in ascending order  
+[INFO ]2024-10-29 10:34:44.972 [TestNG-PoolService-6]LoggerLoad-Admin clicks the sort icon of {colName} column twice  
+[INFO ]2024-10-29 10:38:51.181 [TestNG-PoolService-9]LoggerLoad-checkbox in the datatable header is displayed 
+[INFO ]2024-10-29 10:38:51.181 [TestNG-PoolService-8]LoggerLoad-null
+[INFO ]2024-10-29 10:38:51.181 [TestNG-PoolService-3]LoggerLoad-admin should see disabled DeleteButton
+[INFO ]2024-10-29 10:38:51.181 [TestNG-PoolService-7]LoggerLoad-checkbox is displayed in each row
+[INFO ]2024-10-29 10:38:51.181 [TestNG-PoolService-6]LoggerLoad-delete icon in each row displayed
+[INFO ]2024-10-29 10:38:51.181 [TestNG-PoolService-1]LoggerLoad-LMS-Learning Management System :Title displayed
+[INFO ]2024-10-29 10:38:51.181 [TestNG-PoolService-5]LoggerLoad-edit icon in each row displayed
+[INFO ]2024-10-29 10:38:51.181 [TestNG-PoolService-2]LoggerLoad-admin should see : Manage Batch
+[INFO ]2024-10-29 10:38:51.181 [TestNG-PoolService-4]LoggerLoad-admin should see enabled pagination controls
+[INFO ]2024-10-29 10:39:05.996 [TestNG-PoolService-5]LoggerLoad-sort icon next to all Datatable headers is displayed 
+[INFO ]2024-10-29 10:39:15.425 [TestNG-PoolService-0]LoggerLoad-Validate Login Text ContentPlease login to LMS application
+[INFO ]2024-10-29 10:39:24.152 [TestNG-PoolService-1]LoggerLoad-Validate Asterisk on First FieldUser *
+[INFO ]2024-10-29 10:39:25.477 [TestNG-PoolService-4]LoggerLoad-Validation Of Login Button
+[INFO ]2024-10-29 10:39:25.958 [TestNG-PoolService-2]LoggerLoad-Validate Asterisk On Second Field*
+[INFO ]2024-10-29 10:39:30.176 [TestNG-PoolService-0]LoggerLoad-Validate Text On Second FieldPassword
+[INFO ]2024-10-29 10:39:32.781 [TestNG-PoolService-5]LoggerLoad-Validate Text on First FieldUser *
+[INFO ]2024-10-29 10:39:34.059 [TestNG-PoolService-3]LoggerLoad-Validation Of User Text Color
+[INFO ]2024-10-29 10:40:01.491 [TestNG-PoolService-3]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:01.589 [TestNG-PoolService-3]LoggerLoad- Admin navigated to Program module
+[INFO ]2024-10-29 10:40:09.822 [TestNG-PoolService-2]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:09.839 [TestNG-PoolService-9]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:09.959 [TestNG-PoolService-9]LoggerLoad- Admin sees the LMS heading 
+[INFO ]2024-10-29 10:40:10.256 [TestNG-PoolService-4]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:11.965 [TestNG-PoolService-6]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:12.128 [TestNG-PoolService-6]LoggerLoad- Admin sees the Logout in menu bar 
+[INFO ]2024-10-29 10:40:13.618 [TestNG-PoolService-5]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:13.932 [TestNG-PoolService-5]LoggerLoad- Admin sees the Add New Program in Sub menu bar 
+[INFO ]2024-10-29 10:40:17.651 [TestNG-PoolService-0]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:17.819 [TestNG-PoolService-0]LoggerLoad- Admin sees the heading Manage Program 
+[INFO ]2024-10-29 10:40:18.681 [TestNG-PoolService-8]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:20.559 [TestNG-PoolService-8]LoggerLoad- Admin is able to see the Program name, description, and status for each program 
+[INFO ]2024-10-29 10:40:27.605 [TestNG-PoolService-6]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:27.609 [TestNG-PoolService-4]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:28.262 [TestNG-PoolService-4]LoggerLoad- Admin sees Search bar with text search 
+[INFO ]2024-10-29 10:40:28.929 [TestNG-PoolService-6]LoggerLoad- Admin sees check box default state as unchecked on the left side in all rows against program name
+[INFO ]2024-10-29 10:40:29.905 [TestNG-PoolService-5]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:30.172 [TestNG-PoolService-3]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:30.394 [TestNG-PoolService-3]LoggerLoad- Admin sees a Delete button in left top is disabled
+[INFO ]2024-10-29 10:40:30.659 [TestNG-PoolService-5]LoggerLoad- Admin sees data table with column header on the Manage Program Page 
+[INFO ]2024-10-29 10:40:30.807 [TestNG-PoolService-9]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:30.966 [TestNG-PoolService-9]LoggerLoad- Admin sees checkbox default state as unchecked beside Program Name column header
+[INFO ]2024-10-29 10:40:31.471 [TestNG-PoolService-1]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:31.718 [TestNG-PoolService-1]LoggerLoad- Admin sees the sort arrow icon beside to each column header except Edit and Delete
+[INFO ]2024-10-29 10:40:35.061 [TestNG-PoolService-0]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:36.420 [TestNG-PoolService-0]LoggerLoad- Admin is able to see the Edit and Delete buttons on each row of the data table 
+[INFO ]2024-10-29 10:40:41.084 [TestNG-PoolService-8]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:41.577 [TestNG-PoolService-8]LoggerLoad- Admin is able to see the text as Showing x to y of z entries along with Pagination icon below the table. 
+[INFO ]2024-10-29 10:40:46.968 [TestNG-PoolService-9]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:47.437 [TestNG-PoolService-4]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:48.354 [TestNG-PoolService-4]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 10:40:48.372 [TestNG-PoolService-7]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:48.759 [TestNG-PoolService-4]LoggerLoad- Admin sees window title as Program Details
+[INFO ]2024-10-29 10:40:50.196 [TestNG-PoolService-2]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:50.442 [TestNG-PoolService-3]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:50.981 [TestNG-PoolService-3]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 10:40:51.109 [TestNG-PoolService-3]LoggerLoad- Admin sees pop up window for Program Details
+[INFO ]2024-10-29 10:40:52.187 [TestNG-PoolService-6]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:52.635 [TestNG-PoolService-5]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:52.900 [TestNG-PoolService-6]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 10:40:53.003 [TestNG-PoolService-0]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:40:53.041 [TestNG-PoolService-6]LoggerLoad- Admin sees red * mark beside mandatory field Name
+[INFO ]2024-10-29 10:40:55.848 [TestNG-PoolService-1]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:41:14.276 [TestNG-PoolService-8]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:41:16.720 [TestNG-PoolService-6]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:41:17.142 [TestNG-PoolService-4]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:41:17.168 [TestNG-PoolService-3]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:41:18.201 [TestNG-PoolService-4]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 10:41:18.240 [TestNG-PoolService-3]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 10:41:18.495 [TestNG-PoolService-6]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 10:41:18.512 [TestNG-PoolService-4]LoggerLoad- Admin enters the Name in the text box
+[INFO ]2024-10-29 10:41:18.695 [TestNG-PoolService-4]LoggerLoad- Admin sees the entered name
+[INFO ]2024-10-29 10:41:19.145 [TestNG-PoolService-6]LoggerLoad- Admin clicked Cancel button
+[INFO ]2024-10-29 10:41:20.280 [TestNG-PoolService-6]LoggerLoad- Admin sees Program Details form disappears
+[INFO ]2024-10-29 10:41:21.362 [TestNG-PoolService-7]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:41:21.460 [TestNG-PoolService-3]LoggerLoad-Admin clicks save button without entering mandatory
+[INFO ]2024-10-29 10:41:25.923 [TestNG-PoolService-7]LoggerLoad- Admin clicks Add New Program button
+[ERROR]2024-10-29 10:41:30.640 [TestNG-PoolService-0]LoggerLoad-Element is not enabled
+[ERROR]2024-10-29 10:41:31.870 [TestNG-PoolService-2]LoggerLoad-Element is not enabled
+[INFO ]2024-10-29 10:41:33.048 [TestNG-PoolService-7]LoggerLoad- Admin clicked X button
+[INFO ]2024-10-29 10:41:34.173 [TestNG-PoolService-7]LoggerLoad- Admin sees Program Details form disappears
+[ERROR]2024-10-29 10:41:41.785 [TestNG-PoolService-8]LoggerLoad-Element is not enabled
+[INFO ]2024-10-29 10:41:54.778 [TestNG-PoolService-6]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:41:55.327 [TestNG-PoolService-6]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 10:41:55.663 [TestNG-PoolService-6]LoggerLoad- Admin selects the status of the program by clicking on the radio button Active or InActive
+[INFO ]2024-10-29 10:41:57.582 [TestNG-PoolService-4]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:41:59.812 [TestNG-PoolService-4]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 10:42:00.494 [TestNG-PoolService-4]LoggerLoad- Admin enters the Description in the text box
+[INFO ]2024-10-29 10:42:00.588 [TestNG-PoolService-4]LoggerLoad- Admin sees the entered text in Description box
+[INFO ]2024-10-29 10:42:00.600 [TestNG-PoolService-0]LoggerLoad-Admin clicks the sort icon of {colName} column twice  
+[INFO ]2024-10-29 10:42:00.604 [TestNG-PoolService-0]LoggerLoad-The data get sorted on the table based on the program name column values in descending order  
+[INFO ]2024-10-29 10:42:05.630 [TestNG-PoolService-3]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:42:07.063 [TestNG-PoolService-3]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 10:42:07.562 [TestNG-PoolService-3]LoggerLoad- Admin clicked X button
+[INFO ]2024-10-29 10:42:08.071 [TestNG-PoolService-3]LoggerLoad-Admin searches with newly created name
+[INFO ]2024-10-29 10:42:09.305 [TestNG-PoolService-7]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-29 10:42:10.401 [TestNG-PoolService-8]LoggerLoad-Admin clicks the sort icon of {colName} column twice  
+[INFO ]2024-10-29 10:42:10.403 [TestNG-PoolService-8]LoggerLoad-The data get sorted on the table based on the program name column values in descending order  
+[INFO ]2024-10-29 10:42:10.603 [TestNG-PoolService-9]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-29 10:42:10.616 [TestNG-PoolService-9]LoggerLoad-The data get sorted on the table based on the program name column values in ascending order  
+[INFO ]2024-10-29 10:42:10.934 [TestNG-PoolService-2]LoggerLoad-Admin clicks the sort icon of {colName} column twice  
+[INFO ]2024-10-29 10:42:11.982 [TestNG-PoolService-7]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-29 10:42:12.734 [TestNG-PoolService-5]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-29 10:42:16.264 [TestNG-PoolService-1]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-29 10:42:21.127 [TestNG-PoolService-7]LoggerLoad-Admin Enters valid data in all fields and clicks on save to create a Program
+[INFO ]2024-10-29 10:42:22.340 [TestNG-PoolService-7]LoggerLoad-Admin sees Successful Program created
+[INFO ]2024-10-29 10:42:51.678 [TestNG-PoolService-7]LoggerLoad-Admin sees the updated status: Active
+[INFO ]2024-10-29 10:42:52.080 [TestNG-PoolService-7]LoggerLoad- Admin sees the updated status of radio button 
+[INFO ]2024-10-29 10:43:11.829 [TestNG-PoolService-5]LoggerLoad-The program details dialog has successfully disappeared.
+[INFO ]2024-10-29 10:43:28.431 [TestNG-PoolService-7]LoggerLoad-The Confirmation dialog has successfully appeared.

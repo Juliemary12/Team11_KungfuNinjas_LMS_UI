@@ -70,11 +70,6 @@ public class LoginPage_SD {
 		lo.loginButton();
 	
 	}
-
-//	@Then("Admin should land on dashboard page\\(centre of the page will be empty , menu bar is present)")
-//	public void admin_should_land_on_dashboard_page_centre_of_the_page_will_be_empty_menu_bar_is_present() {
-//		
-//	}
 	
 	@When("Admin gives the {string} LMS portal URL")
 	public void admin_gives_the_lms_portal_url(String string) {
@@ -304,6 +299,11 @@ public class LoginPage_SD {
 	public void admin_should_see_login_button_on_the_centre_of_the_page() {
 		
 		
+	}
+	@Given("Admin clicks the login button with valid username and password")
+	public void admin_clicks_the_login_button_with_valid_username_and_password() {
+		lo.loginsucess();
+		lo.loginButton();
 	}
 
 }
