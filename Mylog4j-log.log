@@ -1,0 +1,31 @@
+[INFO ]2024-10-24 21:09:26.533 [main]LoggerLoad-Validate Login Text ContentPlease login to LMS application
+[INFO ]2024-10-24 21:28:00.003 [main]LoggerLoad-Validate Text on First FieldUser *
+[INFO ]2024-10-24 21:39:07.256 [main]LoggerLoad-Validate Text on First FieldUser *
+[INFO ]2024-10-24 21:39:10.149 [main]LoggerLoad-Validate Asterisk on First FieldUser *
+[INFO ]2024-10-24 21:43:25.411 [main]LoggerLoad-Validate Text on First FieldUser *
+[INFO ]2024-10-24 21:43:28.283 [main]LoggerLoad-Validate Asterisk on First FieldUser *
+[INFO ]2024-10-24 22:05:53.992 [main]LoggerLoad-Validate Text on First FieldUser *
+[INFO ]2024-10-24 22:05:56.783 [main]LoggerLoad-Validate Asterisk on First FieldUser *
+[INFO ]2024-10-24 22:27:15.946 [main]LoggerLoad-Validate Text on First FieldUser *
+[INFO ]2024-10-24 22:39:45.243 [main]LoggerLoad-Validate Text On Second FieldPassword
+[INFO ]2024-10-24 22:46:02.874 [main]LoggerLoad-Validate Asterisk On Second Field*
+[INFO ]2024-10-25 18:40:06.805 [main]LoggerLoad-Validate Login Text ContentPlease login to LMS application
+[INFO ]2024-10-28 16:06:50.289 [main]LoggerLoad-Validate Login Text ContentPlease login to LMS application
+[INFO ]2024-10-28 16:06:59.292 [main]LoggerLoad-Validate Text on First FieldUser *
+[INFO ]2024-10-28 16:07:04.311 [main]LoggerLoad-Validate Asterisk on First FieldUser *
+[INFO ]2024-10-28 16:07:09.361 [main]LoggerLoad-Validate Text On Second FieldPassword
+[INFO ]2024-10-28 16:07:14.621 [main]LoggerLoad-Validate Asterisk On Second Field*
+[INFO ]2024-10-28 16:07:21.802 [main]LoggerLoad-Validation Of Input Field
+[INFO ]2024-10-28 16:07:26.442 [main]LoggerLoad-Validation Of Login Button
+[INFO ]2024-10-28 16:07:31.270 [main]LoggerLoad-Validate Location Of Login Button
+[INFO ]2024-10-28 16:07:37.417 [main]LoggerLoad-Validation Of User Text Color
+[INFO ]2024-10-28 18:10:48.470 [TestNG-PoolService-4]LoggerLoad-Validate Asterisk on First FieldUser *
+[INFO ]2024-10-28 18:10:48.470 [TestNG-PoolService-6]LoggerLoad-Validate Text On Second FieldPassword
+[INFO ]2024-10-28 18:10:48.470 [TestNG-PoolService-5]LoggerLoad-Validation Of Input Field
+[INFO ]2024-10-28 18:10:48.470 [TestNG-PoolService-9]LoggerLoad-Validate Login Text ContentPlease login to LMS application
+[INFO ]2024-10-28 18:10:48.470 [TestNG-PoolService-2]LoggerLoad-Validation Of Login Button
+[INFO ]2024-10-28 18:10:48.470 [TestNG-PoolService-1]LoggerLoad-Validate Text on First FieldUser *
+[INFO ]2024-10-28 18:10:58.467 [TestNG-PoolService-7]LoggerLoad-Validate Location Of Login Button
+[INFO ]2024-10-28 18:10:58.511 [TestNG-PoolService-3]LoggerLoad-Validation Of User Text Color
+[INFO ]2024-10-28 18:11:01.988 [TestNG-PoolService-8]LoggerLoad-Validate Asterisk On Second Field*
+[INFO ]2024-10-28 18:11:10.186 [TestNG-PoolService-3]LoggerLoad-Validate Location Of Login Button

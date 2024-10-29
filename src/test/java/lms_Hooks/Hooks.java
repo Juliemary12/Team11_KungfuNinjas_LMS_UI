@@ -39,7 +39,7 @@ public class Hooks {
 			scenario.attach(screenshot, "image/png", "image");//Extent report screenshot
 		}
 		
-		//pico.getDriver().quit();
+		pico.getDriver().quit();
 	}
 
 }

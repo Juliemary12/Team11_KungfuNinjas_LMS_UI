@@ -1,5 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>Team11_KungfuNinjas_LMS_UI</groupId>
   <artifactId>Team11_KungfuNinjas_LMS_UI</artifactId>
@@ -141,7 +141,48 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
     <artifactId>cucumber-picocontainer</artifactId>
     <version>7.18.1</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/net.sourceforge.tess4j/tess4j -->
+<dependency>
+    <groupId>net.sourceforge.tess4j</groupId>
+    <artifactId>tess4j</artifactId>
+    <version>5.10.0</version>
+</dependency>
 
+<!-- https://mvnrepository.com/artifact/de.niklasfi.aocr/aocr -->
+<dependency>
+    <groupId>de.niklasfi.aocr</groupId>
+    <artifactId>aocr</artifactId>
+    <version>2.4</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.lucene/lucene-core -->
+<dependency>
+    <groupId>org.apache.lucene</groupId>
+    <artifactId>lucene-core</artifactId>
+    <version>10.0.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.lucene/lucene-analysis-common -->
+<dependency>
+    <groupId>org.apache.lucene</groupId>
+    <artifactId>lucene-analysis-common</artifactId>
+    <version>10.0.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.lucene/lucene-spellchecker -->
+<dependency>
+    <groupId>org.apache.lucene</groupId>
+    <artifactId>lucene-spellchecker</artifactId>
+    <version>3.3.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.languagetool/language-en -->
+
+<dependency>
+   <groupId>org.languagetool</groupId>
+   <artifactId>language-en</artifactId>
+   <version>6.4</version>
+</dependency>
 
 		<!-- <dependency>
 <groupId>org.junit.jupiter</groupId>
