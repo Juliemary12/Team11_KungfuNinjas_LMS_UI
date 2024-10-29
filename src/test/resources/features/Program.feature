@@ -9,12 +9,12 @@ Feature: Program Module
     When Admin clicks "Program" on the navigation bar
     
     
-   ################### Navigation ################################
+   ################# Navigation ################################
     
 		Scenario: Validate landing in Program page			
     Then Admin should be navigated to "Program module"
     
-    ################## Menu Bar ################################
+    ################ Menu Bar ################################
     
     Scenario: Verify any broken links on program page  
     Then Admin should not have any broken links for Program module
@@ -31,7 +31,7 @@ Feature: Program Module
     Scenario: Verify sub menu displayed in program menu bar
     Then Admin should see sub menu in menu bar as "Add New Program"    
         
-    ################## Manage Program Page validation ################################
+    ################ Manage Program Page validation ################################
     
     Scenario: Verify heading in manage program
     Then Admin should see the heading Manage Program
@@ -67,7 +67,7 @@ Feature: Program Module
     Scenario: Verify footer message in manage program   
     Then Admin should see the footer as In total there are z programs.
     
-    ################## Add New Program validation ################################
+    ################ Add New Program validation ################################
     
     Scenario: Verify add New Program
     When Admin clicks Add New Program button
@@ -80,5 +80,29 @@ Feature: Program Module
     Scenario: Verify mandatory fields with red "*" mark 
     When Admin clicks Add New Program button
     Then Admin should see red * mark beside mandatory field Name
-
+    
+    #################### Sorting(DataOrdering)Validation #################################   
+      
+  	@Sorting_ascending_program 
+  	Scenario Outline: Validates Sorting(data ordering) on the Program Data table
+  	When Admin clicks the sort icon of "<colName>" column
+  	Then The data get sorted on the table based on the program name column values in ascending order
+  
+  	Examples:
+  	|colName            |
+  	|Program Name       |
+  	|Program Description|
+  	|Program Status     |
+  
+	  @Sorting_descending @now
+	  Scenario Outline: Validates Sorting(data ordering) on the Program Data table
+	  When Admin clicks the sort icon of "<colName>" column twice
+	  Then The data get sorted on the table based on the program name column values in descending order
+	  
+	  Examples:
+	  |colName       |
+	  |Program Name  |
+	  |Program Desc  |
+#	  |Program Status|
+#
     

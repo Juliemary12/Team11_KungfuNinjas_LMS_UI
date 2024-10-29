@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(features = "src/test/resources/features", glue = { "lms_Hooks", "lms_StepDefinition" },
 
-//tags = "@all",
+		tags = "@all",
 
 		plugin = { "pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm", "html:target/cucumber-reports/Team11_LMS.html",
@@ -21,7 +21,7 @@ import io.cucumber.testng.CucumberOptions;
 
 public class TestRunner extends AbstractTestNGCucumberTests {
 	@Override
-	@DataProvider(parallel = false)
+	@DataProvider(parallel = true)
 	public Object[][] scenarios() {
 		return super.scenarios();
 	}

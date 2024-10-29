@@ -154,7 +154,7 @@ public class ProgramAdd_SD {
 	@When("Admin enter valid details for mandatory fields {string}, {string}, status and Click on save button")
 	public void admin_enter_valid_details_for_mandatory_fields_status_and_click_on_save_button(String progName,
 			String progDescription) throws InterruptedException {
-		String programName = "KungfuNinjasTeamab";
+		String programName = "KungfuNinjasTeamac";
 		String description = "For SDET";
 		pdp.ProgramDetails(programName, description);
 		LoggerLoad.info("Admin Enters valid data in all fields and clicks on save to create a Program");
@@ -173,14 +173,14 @@ public class ProgramAdd_SD {
 
 	@When("Admin searches with newly created Program Name")
 	public void admin_searches_with_newly_created_program_name() {
-		String name = "KungfuNinjasTeamab";
+		String name = "KungfuNinjasTeamac";
 		pdp.enterNameInSearchbox(name);
 		LoggerLoad.info("Admin searches with newly created name");
 	}
 
 	@Then("Records of the newly created  Program Name is displayed and match the data entered")
 	public void records_of_the_newly_created_program_name_is_displayed_and_match_the_data_entered() {
-		String ExpectedName = "KungfuNinjasTeamab";
+		String ExpectedName = "KungfuNinjasTeamac";
 		String ExpectedDescription = "SDET";
 		String ExpectedStatus = "Active";
 		Assert.assertEquals(pdp.getCreatedNameText(), ExpectedName);

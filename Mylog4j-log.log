@@ -653,3 +653,76 @@
 [INFO ]2024-10-28 14:19:01.931 [main]LoggerLoad-Admin searches with newly created name
 [INFO ]2024-10-28 14:47:49.848 [main]LoggerLoad- Admin clicks Program on the navigation bar 
 [INFO ]2024-10-28 14:47:49.975 [main]LoggerLoad- Admin is able to see the text as Showing x to y of z entries along with Pagination icon below the table. 
+[INFO ]2024-10-28 16:34:10.600 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-28 16:34:10.613 [main]LoggerLoad- Admin navigated to Program module
+[INFO ]2024-10-28 16:34:50.809 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-28 16:34:59.348 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-28 16:35:08.565 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-28 16:35:13.954 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-28 16:35:18.941 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-28 16:35:24.673 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-28 17:15:47.155 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[ERROR]2024-10-28 17:15:48.396 [main]LoggerLoad-Element is not enabled
+[INFO ]2024-10-28 17:15:50.653 [main]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-28 17:16:17.602 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[ERROR]2024-10-28 17:16:17.672 [main]LoggerLoad-Element is not enabled
+[INFO ]2024-10-28 17:16:19.987 [main]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-28 17:16:44.903 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[ERROR]2024-10-28 17:16:44.981 [main]LoggerLoad-Element is not enabled
+[INFO ]2024-10-28 17:16:47.277 [main]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-28 17:17:15.834 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[ERROR]2024-10-28 17:17:15.904 [main]LoggerLoad-Element is not enabled
+[INFO ]2024-10-28 17:17:19.320 [main]LoggerLoad-Admin clicks the sort icon of {colName} column twice  
+[INFO ]2024-10-28 17:17:46.814 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[ERROR]2024-10-28 17:17:46.900 [main]LoggerLoad-Element is not enabled
+[INFO ]2024-10-28 17:17:48.074 [main]LoggerLoad-Admin clicks the sort icon of {colName} column twice  
+[INFO ]2024-10-28 17:17:48.074 [main]LoggerLoad-The data get sorted on the table based on the program name column values in descending order  
+[INFO ]2024-10-28 17:17:52.809 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[ERROR]2024-10-28 17:17:52.890 [main]LoggerLoad-Element is not enabled
+[INFO ]2024-10-28 17:17:56.342 [main]LoggerLoad-Admin clicks the sort icon of {colName} column twice  
+[INFO ]2024-10-28 17:55:20.584 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[ERROR]2024-10-28 17:55:32.091 [main]LoggerLoad-Element is not enabled
+[INFO ]2024-10-28 17:55:34.583 [main]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-28 17:55:34.592 [main]LoggerLoad-The data get sorted on the table based on the program name column values in ascending order  
+[INFO ]2024-10-28 17:55:46.185 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[ERROR]2024-10-28 17:55:57.714 [main]LoggerLoad-Element is not enabled
+[INFO ]2024-10-28 17:56:00.143 [main]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-28 17:56:00.144 [main]LoggerLoad-The data get sorted on the table based on the program name column values in ascending order  
+[INFO ]2024-10-28 17:56:15.449 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[ERROR]2024-10-28 17:56:27.150 [main]LoggerLoad-Element is not enabled
+[INFO ]2024-10-28 17:56:29.771 [main]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-28 17:56:29.774 [main]LoggerLoad-The data get sorted on the table based on the program name column values in ascending order  
+[INFO ]2024-10-28 18:03:33.179 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[ERROR]2024-10-28 18:03:44.810 [main]LoggerLoad-Element is not enabled
+[INFO ]2024-10-28 18:03:47.413 [main]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-28 18:04:00.789 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[ERROR]2024-10-28 18:04:12.391 [main]LoggerLoad-Element is not enabled
+[INFO ]2024-10-28 18:04:14.891 [main]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-28 18:04:14.905 [main]LoggerLoad-The data get sorted on the table based on the program name column values in ascending order  
+[INFO ]2024-10-28 18:04:29.867 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[ERROR]2024-10-28 18:04:40.091 [main]LoggerLoad-Element is not enabled
+[INFO ]2024-10-28 18:04:42.675 [main]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-28 21:07:03.388 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-28 21:07:16.926 [main]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-28 21:07:58.399 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-28 21:08:06.139 [main]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-28 21:08:49.862 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-28 21:08:57.524 [main]LoggerLoad- Admin clicks the sort icon of <colName> column
+[INFO ]2024-10-28 21:09:41.101 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[ERROR]2024-10-28 21:09:41.250 [main]LoggerLoad-Element is not enabled
+[INFO ]2024-10-28 21:09:49.880 [main]LoggerLoad-Admin clicks the sort icon of {colName} column twice  
+[INFO ]2024-10-28 21:10:51.086 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[ERROR]2024-10-28 21:10:51.249 [main]LoggerLoad-Element is not enabled
+[INFO ]2024-10-28 21:10:57.157 [main]LoggerLoad-Admin clicks the sort icon of {colName} column twice  
+[INFO ]2024-10-28 21:10:57.159 [main]LoggerLoad-The data get sorted on the table based on the program name column values in descending order  
+[INFO ]2024-10-28 21:11:19.716 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[ERROR]2024-10-28 21:11:19.858 [main]LoggerLoad-Element is not enabled
+[INFO ]2024-10-28 21:11:28.280 [main]LoggerLoad-Admin clicks the sort icon of {colName} column twice  
+[INFO ]2024-10-28 21:12:26.458 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-28 21:12:26.715 [main]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-28 21:12:29.557 [main]LoggerLoad-Admin Enters valid data in all fields and clicks on save to create a Program
+[INFO ]2024-10-28 21:12:30.614 [main]LoggerLoad-Admin sees Successful Program created
+[INFO ]2024-10-28 21:13:28.757 [main]LoggerLoad- Admin clicks Program on the navigation bar 
+[INFO ]2024-10-28 21:13:29.079 [main]LoggerLoad- Admin clicks Add New Program button
+[INFO ]2024-10-28 21:13:29.269 [main]LoggerLoad- Admin clicked X button
+[INFO ]2024-10-28 21:13:29.539 [main]LoggerLoad-Admin searches with newly created name

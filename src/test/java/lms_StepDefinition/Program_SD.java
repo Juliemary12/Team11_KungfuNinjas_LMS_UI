@@ -2,6 +2,7 @@ package lms_StepDefinition;
 
 import java.net.URISyntaxException;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -27,6 +28,9 @@ public class Program_SD {
 	ProgramPage programpage;
 	PicoContext pico;
 	SoftAssert softAssert = new SoftAssert();
+
+	List<String> colListBeforeSort;
+	List<String> colListAfterSort;
 
 	public Program_SD(PicoContext pico) {
 		this.pico = pico;
@@ -82,7 +86,8 @@ public class Program_SD {
 		LoggerLoad.info(" Admin sees the Add New Program in Sub menu bar ");
 	}
 
-	// ################# Manage Program Page validation ################################
+	// ################# Manage Program Page validation
+	// ################################
 
 	@Then("Admin should see the heading Manage Program")
 	public void admin_should_see_the_heading_manage_program() {
@@ -186,12 +191,71 @@ public class Program_SD {
 		softAssert.assertAll();
 	}
 
-	// ##################### Add New Program validation	################################
+	// ##################### Add New Program validation
+	// ################################
 
 	@When("Admin clicks Add New Program button")
 	public void admin_clicks_add_new_program_button() {
 		programpage.clickAddNewProgramButton();
 		LoggerLoad.info(" Admin clicks Add New Program button");
+	}
+
+	// ********************* Ascending/Descending Sorting Step Def
+	// *****************************
+
+	@When("Admin clicks the sort icon of {string} column")
+	public void admin_clicks_the_sort_icon_of_column(String colName) {
+		// List before sort button is clicked
+		colListBeforeSort = programpage.getTextListFromAllPages(colName);
+
+		// Come back to first page. Assumption: there are more than 1 page
+		if(programpage.moreThanOnePageExists()){
+		  programpage.clickOnFirstNextPreviousLastLink("first");
+		  }
+		
+		// click on sort button next to colName
+		programpage.clickSortIcon(colName, "ascending");
+
+		// List after sort button is clicked
+		colListAfterSort = programpage.getTextListFromAllPages(colName);
+		LoggerLoad.info(" Admin clicks the sort icon of <colName> column");
+	}
+
+	@Then("The data get sorted on the table based on the program name column values in ascending order")
+	public void the_data_get_sorted_on_the_table_based_on_the_program_name_column_values_in_ascending_order() {
+		// Sort the unsorted list in ascending order
+		Collections.sort(colListBeforeSort, String.CASE_INSENSITIVE_ORDER);
+		Assert.assertTrue(colListBeforeSort.equals(colListAfterSort));
+		LoggerLoad
+				.info("The data get sorted on the table based on the program name column values in ascending order  ");
+	}
+
+	@When("Admin clicks the sort icon of {string} column twice")
+	public void admin_clicks_the_sort_icon_of_column_twice(String colName) {
+		// List before sort button is clicked
+		colListBeforeSort = programpage.getTextListFromAllPages(colName);
+
+		// Come back to first page
+		programpage.clickOnFirstNextPreviousLastLink("first");
+
+		// click on sort button next to colName
+		programpage.clickSortIcon(colName, "descending");
+
+		// List after sort button is clicked
+		colListAfterSort = programpage.getTextListFromAllPages(colName);
+		LoggerLoad.info("Admin clicks the sort icon of {colName} column twice  ");
+	}
+
+	@Then("The data get sorted on the table based on the program name column values in descending order")
+	public void the_data_get_sorted_on_the_table_based_on_the_program_name_column_values_in_descending_order() {
+		// Sort the unsorted list in descending order
+		// List<String> sortedList = new ArrayList<>(originalList);
+		Collections.sort(colListBeforeSort, String.CASE_INSENSITIVE_ORDER);
+		Collections.reverse(colListBeforeSort);
+
+		Assert.assertTrue(colListBeforeSort.equals(colListAfterSort));
+		LoggerLoad
+				.info("The data get sorted on the table based on the program name column values in descending order  ");
 	}
 
 }

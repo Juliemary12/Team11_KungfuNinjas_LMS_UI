@@ -10,7 +10,7 @@ Feature: Program Module
     Given Admin clicks "Program" on the navigation bar
     Given Admin clicks Add New Program button
         
-    ################### Add New Program validation ################################
+    ################## Add New Program validation ################################
     
     Scenario: Verify empty form submission
     When Admin clicks save button without entering mandatory  
@@ -47,8 +47,4 @@ Feature: Program Module
     
    
     
-    
-    
-    
-
-    
+  
