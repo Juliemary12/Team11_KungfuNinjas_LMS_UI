@@ -71,6 +71,7 @@
 //	
 package lms_Utils;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -134,7 +135,6 @@ public class ConfigReader {
 			throw new RuntimeException("browser not specified in the config.properties file.");
 	}
 
-}
 	
 		 Properties pro;
 		  private static Properties prop;

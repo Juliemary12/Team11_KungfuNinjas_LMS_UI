@@ -95,7 +95,7 @@ public class PicoContext {
 	public ProgramDetails getProgramDetailsPage() {
 		return pdp;
 	}
-	}	
+		
 	
 	public ClassPagesNavigation getPageNavigation() {
 		return classPGN;	

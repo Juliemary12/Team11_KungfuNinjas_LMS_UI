@@ -54,13 +54,7 @@ public class LoginPage_SD {
 		System.out.println("Title of the page is:" + title);
 	}
 
-	@When("Admin enters sheetname {string} and rownumber {int}")
-	public void admin_enters_sheetname_and_rownumber(String string, Integer rowNumber)
-			throws InvalidFormatException, IOException {
-
-		lo.readDataFromSheet(string, rowNumber);
-	}
-
+	
 	@When("Admin enters userusername {string} and password {string} and click on login button")
 	public void admin_enters_userusername_and_password_and_click_on_login_button(String string, String string2) {
 
@@ -86,19 +80,6 @@ public class LoginPage_SD {
 		lo.readDataFromSheet(string, rowNumber);		
 	}
 
-	@When("Admin enters userusername {string} and password {string} and click on login button")
-	public void admin_enters_userusername_and_password_and_click_on_login_button(String string, String string2) {
-	    
-		lo.sendUserName();
-		lo.sendPassword();
-		lo.loginButton();
-	
-	}
-
-//	@Then("Admin should land on dashboard page\\(centre of the page will be empty , menu bar is present)")
-//	public void admin_should_land_on_dashboard_page_centre_of_the_page_will_be_empty_menu_bar_is_present() {
-//		
-//	}
 	
 	@When("Admin gives the {string} LMS portal URL")
 	public void admin_gives_the_lms_portal_url(String string) {

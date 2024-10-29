@@ -1,26 +1,5 @@
 package lms_PageObject;
 
-import java.io.IOException;
-import java.util.List;
-import java.util.Map;
-
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Point;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-
-import lms_Utils.ConfigReader;
-import lms_Utils.ExcelReader;
-import lms_Utils.PropertiesFile;
-
-public class LoginPage {
-
-	private WebDriver webDriver;
-	String UserNameExcelValue;
-	String PasswordExcelValue;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -125,40 +104,6 @@ public class LoginPage {
 	private By login = By.xpath("//button[@id='login']");
 	
 	
-	
-	
-	
-	public LoginPage(WebDriver driver) {
-	super();
-	this.webDriver=driver;
-	}
-	
-	
-	   public void readDataFromSheet(String sheetName, Integer rowNumber) throws InvalidFormatException, IOException{
-	        lms_Utils.ExcelReader reader = new ExcelReader();
-	        List<Map<String, String>> testdata = reader.getData("src/test/resources/TestData/LMSTestData.xlsx", sheetName);
-	        UserNameExcelValue = testdata.get(rowNumber).get("UserName");
-	        PasswordExcelValue = testdata.get(rowNumber).get("Password");
-        
-	   }
-	   
-	   public void sendUserName() {
-		   
-		 webDriver.findElement(username).sendKeys(UserNameExcelValue);
-		 
-	   }
-	   
-	   public void sendPassword() {
-		   
-		   webDriver.findElement(password).sendKeys(PasswordExcelValue);
-	   }
-	   
-	   public void loginButton() {
-		   
-		   webDriver.findElement(LoginButton).click();
-		
-	   }
-	   
 	   public String  dashboardPgae() {
 		   
 		   webDriver.findElement(username).sendKeys(PropertiesFile.readPropertiesFile("userName"));
@@ -167,33 +112,24 @@ public class LoginPage {
 		   String url = webDriver.getCurrentUrl();
 //		   System.out.println("curent page titile:" + url);
 		   return url;
-	   }
+	   }  
 	   
-	   
-	   
-		public String getPageTitle() {
-			  String Title= webDriver.getTitle();
-			  return Title;		  
-	  }
 		  
 		public String invalidurl() {
 			String InvalidUrl= "http://lms-frntend-hackathon-oct74-173fe79471.herokuapp.ccom/login";
 			return InvalidUrl;
 			
-		}
-		
+		}		
 		
 		public String loginContentText() {
 			
 			String ContentText = webDriver.findElement(loginContent).getText();
-			return ContentText;
-			
+			return ContentText;			
 		}
 		
 		public String textFirstField() {
 			String textUser=webDriver.findElement(userLabel).getText();
-			return textUser;
-			
+			return textUser;			
 		}
 		
 		public String textSecondField() {
@@ -210,21 +146,7 @@ public class LoginPage {
 		}
 		
 		public Point inputFldAlgn() {
-//			int actualX = 490; 
-//			int actualY=354;
-//			
-//		Point location=webDriver.findElement(inputFieldAllign).getLocation();
-//		int x =location.getX();
-//		int y = location.getY();
-//		
-//		if(actualX==x && actualY==y) {
-//			
-//			System.out.println("Coordinates Match");
-//		
-//		}else { 
-//			
-//			System.out.println("Coordinates Doesnt Match");
-//		}
+
 			WebElement inputfield = webDriver.findElement(inputFieldAllign);
 			return inputfield.getLocation();
 
@@ -239,8 +161,6 @@ public class LoginPage {
 		public Point loginBtnAllignment() {
 			
 			Point location=webDriver.findElement(loginBtn).getLocation();
-			int x =location.getX();
-			int y = location.getY();
 			return location;
 		}
 		
@@ -342,16 +262,6 @@ public class LoginPage {
 		}
 		
 		public void appNameOnLogo() throws IOException, TesseractException {
-			
-//			String imageURL = webDriver.findElement(logo).getAttribute("src");
-//			URL url = new URL(imageURL);
-//			BufferedImage image1 = ImageIO.read(url);
-//
-//			 Tesseract tesseract = new Tesseract();
-//			 tesseract.setDatapath("C:\\Users\\shwet\\git\\Team11_KungfuNinjas_LMS_UI");
-//			 tesseract.setLanguage("eng");
-//			 String extractedText = tesseract.doOCR(image1);
-//			 System.out.println("Image Text:" + extractedText );
 			 
 			 try {
 				    String imageURL = webDriver.findElement(logo).getAttribute("src");
