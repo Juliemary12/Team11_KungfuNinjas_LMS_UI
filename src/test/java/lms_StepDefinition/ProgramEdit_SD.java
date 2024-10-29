@@ -1,8 +1,10 @@
 package lms_StepDefinition;
 
 import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 import java.time.Duration;
+import java.util.List;
 import java.util.concurrent.TimeoutException;
 
 import org.openqa.selenium.WebDriver;
@@ -266,4 +268,29 @@ public class ProgramEdit_SD {
 		pe.programdeleteicon();
 	    pe.deleteclosebutton();
 	}
-}
+	
+	@When("Admin selects more than one program by clicking on the checkbox")
+	public void admin_selects_more_than_one_program_by_clicking_on_the_checkbox() {
+		   pe.programselectedformultiple();
+
+		//pe.multipledeletebutton();
+	}
+
+	@Then("Programs get selected")
+	public void programs_get_selected() {
+	  
+	    
+	}
+	@When("Admin clicks on the delete button on the left top of the program page")
+	public void admin_clicks_on_the_delete_button_on_the_left_top_of_the_program_page() {
+	   pe.programselectedformultiple();
+		pe.deletemultipleicon();
+	}
+
+	@Then("Admin lands on Confirmation form")
+	public void admin_lands_on_confirmation_form() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	}

@@ -52,6 +52,12 @@ public class ProgramEdit {
 	private By showresult = By.xpath("//span[@class='p-paginator-current ng-star-inserted']");
 	private By closeButton = By.className("p-dialog-header-close");
 	
+	
+	//************Delete Multiple********************
+	private By checkbox = By.xpath("//th[@style='width: 3rem;']/p-tableheadercheckbox//input[@type='checkbox']");
+	private By delbutton = By.xpath("(//button[contains(@class, 'p-button-danger') and .//span[contains(@class, 'pi pi-trash')]])[1]");
+	
+	
 	public ProgramEdit(WebDriver driver) {
 		super();
 		this.webDriver = driver;
@@ -244,4 +250,49 @@ public class ProgramEdit {
 		public void deleteclosebutton() {
 			  webDriver.findElement(closeButton).click();
 		  }
+		
+		//**************multipledelete*************
+		
+//	public void multipledeletebutton() {
+//		webDriver.findElement(checkbox).click();
+//	}
+	public void programselectedformultiple() {
+		 List<WebElement> checkboxes = webDriver.findElements(checkbox);
+		    WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(10));
+		    wait.until(ExpectedConditions.invisibilityOfElementLocated(checkbox));
+		    for (WebElement checkbox : checkboxes) {
+		        ((JavascriptExecutor) webDriver).executeScript("arguments[0].click();", checkbox);
+		        if (!checkbox.isSelected()) {
+		            //checkbox.click();
+	    }
+		    }
 	}
+	
+	public void getprogram() {
+		List<WebElement> checkboxes = webDriver.findElements(By.xpath("//input[@type='checkbox' and contains(@class, 'program-checkbox')]"));
+	    
+	    boolean isAnySelected = false;
+
+	    // Check if at least one checkbox is selected
+	    for (WebElement checkbox : checkboxes) {
+	        if (checkbox.isSelected()) {
+	            isAnySelected = true;
+	            break; // Exit loop as soon as one selected checkbox is found
+	        }
+	    }
+
+	    // Assert that at least one checkbox is selected
+	    if (!isAnySelected) {
+	        throw new AssertionError("No program checkbox is selected.");
+	}
+	}
+	
+	public void deletemultipleicon() {
+		WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(20));
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("cdk-overlay-backdrop")));
+
+		WebElement delbuttonmore = wait.until(ExpectedConditions.elementToBeClickable(delbutton));
+		((JavascriptExecutor) webDriver).executeScript("arguments[0].click();", delbuttonmore);
+		//webDriver.findElement(delbutton).click();
+	}
+}
